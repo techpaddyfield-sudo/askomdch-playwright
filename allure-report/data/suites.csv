@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2169","Invalid credentials keep user on login form","chromium","Tue Oct 28 19:30:18 IST 2025","passed","Tue Oct 28 19:30:20 IST 2025","Login tests with beforeAll / afterAll","login.spec.ts","",""
+"","5276","Login form renders correctly","chromium","Tue Oct 28 19:30:12 IST 2025","passed","Tue Oct 28 19:30:18 IST 2025","Login tests with beforeAll / afterAll","login.spec.ts","",""
