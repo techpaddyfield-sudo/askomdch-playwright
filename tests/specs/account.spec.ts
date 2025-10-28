@@ -13,17 +13,18 @@ const PASS = process.env.ACCOUNT_PASS!;
 
 test.describe('[Account] Dashboard & navigation', () => {
     test.skip(!USER || !PASS, 'Set ACCOUNT_USER and ACCOUNT_PASS env vars to run account tests.');
-
     test.beforeAll(async ({ browser, baseURL }) => {
         context = await browser.newContext();
         page = await context.newPage();
 
-        login = new LoginPage(page, baseURL ?? 'https://askomdch.com');
-        account = new AccountPage(page);
+        const base = baseURL ?? 'https://askomdch.com';
+
+        login = new LoginPage(page, base);            // you already had this
+        account = new AccountPage(page, base);        // ✅ pass base here too
 
         await login.open();
         await login.login(USER, PASS);
-        await account.open(); // ensure we land on /account/
+        await account.open();
     });
 
     test.afterAll(async () => {
