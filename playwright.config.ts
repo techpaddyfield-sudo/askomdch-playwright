@@ -7,7 +7,7 @@ import 'dotenv/config';
 export default defineConfig({
   testDir: './tests/specs',
   timeout: 30_000,
-  retries: process.env.CI ? 2 : 0,
+  retries: 1,
   use: {
     baseURL: 'https://askomdch.com',
     trace: 'retain-on-failure',
