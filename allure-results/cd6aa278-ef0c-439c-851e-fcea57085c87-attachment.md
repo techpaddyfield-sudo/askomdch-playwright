@@ -1,0 +1,153 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e9]:
+        - link "AskOmDch" [ref=e15] [cursor=pointer]:
+          - /url: https://askomdch.com/
+        - generic [ref=e16]:
+          - navigation "Site Navigation" [ref=e20]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Home" [ref=e24] [cursor=pointer]:
+                  - /url: https://askomdch.com/
+              - listitem [ref=e25]:
+                - link "Store" [ref=e26] [cursor=pointer]:
+                  - /url: https://askomdch.com/store/
+              - listitem [ref=e27]:
+                - link "Men" [ref=e28] [cursor=pointer]:
+                  - /url: https://askomdch.com/product-category/men/
+              - listitem [ref=e29]:
+                - link "Women" [ref=e30] [cursor=pointer]:
+                  - /url: https://askomdch.com/product-category/women/
+              - listitem [ref=e31]:
+                - link "Accessories" [ref=e32] [cursor=pointer]:
+                  - /url: https://askomdch.com/product-category/accessories/
+              - listitem [ref=e33]:
+                - link "Account" [ref=e34] [cursor=pointer]:
+                  - /url: https://askomdch.com/account/
+              - listitem [ref=e35]:
+                - link "About" [ref=e36] [cursor=pointer]:
+                  - /url: https://askomdch.com/about/
+              - listitem [ref=e37]:
+                - link "Contact Us" [ref=e38] [cursor=pointer]:
+                  - /url: https://askomdch.com/contact-us/
+          - link "0" [ref=e42] [cursor=pointer]:
+            - /url: https://askomdch.com/cart/
+            - generic [ref=e44]: "0"
+    - main [ref=e48]:
+      - article [ref=e49]:
+        - generic [ref=e50]:
+          - heading "Account" [level=1] [ref=e53]
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - heading "Login" [level=2] [ref=e59]
+              - generic [ref=e60]:
+                - paragraph [ref=e61]:
+                  - generic [ref=e62]: Username or email address *
+                  - textbox "Username or email address *" [ref=e63]
+                - paragraph [ref=e64]:
+                  - generic [ref=e65]: Password *
+                  - textbox "Password *" [ref=e66]
+                - paragraph [ref=e67]:
+                  - generic [ref=e68]:
+                    - checkbox "Remember me" [ref=e69]
+                    - text: Remember me
+                  - button "Log in" [ref=e70] [cursor=pointer]
+                - paragraph [ref=e71]:
+                  - link "Lost your password?" [ref=e72] [cursor=pointer]:
+                    - /url: https://askomdch.com/account/lost-password/
+            - generic [ref=e73]:
+              - heading "Register" [level=2] [ref=e74]
+              - generic [ref=e75]:
+                - paragraph [ref=e76]:
+                  - generic [ref=e77]: Username *
+                  - textbox "Username *" [ref=e78]
+                - paragraph [ref=e79]:
+                  - generic [ref=e80]: Email address *
+                  - textbox "Email address *" [ref=e81]
+                - paragraph [ref=e82]:
+                  - generic [ref=e83]: Password *
+                  - textbox "Password *" [ref=e84]
+                - paragraph [ref=e86]: TEST MODE ENABLED. DO NOT ENTER YOUR PERSONAL DATA.
+                - paragraph [ref=e87]:
+                  - button "Register" [ref=e88] [cursor=pointer]
+          - paragraph
+    - contentinfo [ref=e89]:
+      - generic [ref=e92]:
+        - complementary "Footer Widget 1" [ref=e94]:
+          - generic [ref=e96]:
+            - heading "Quick Links" [level=2] [ref=e97]
+            - navigation "Quick Links" [ref=e98]:
+              - list [ref=e99]:
+                - listitem [ref=e100]:
+                  - link "Home" [ref=e101] [cursor=pointer]:
+                    - /url: https://askomdch.com/
+                - listitem [ref=e102]:
+                  - link "About" [ref=e103] [cursor=pointer]:
+                    - /url: https://askomdch.com/about/
+                - listitem [ref=e104]:
+                  - link "My Account" [ref=e105] [cursor=pointer]:
+                    - /url: https://askomdch.com/account/
+                - listitem [ref=e106]:
+                  - link "Cart" [ref=e107] [cursor=pointer]:
+                    - /url: https://askomdch.com/cart/
+                - listitem [ref=e108]:
+                  - link "Contact Us" [ref=e109] [cursor=pointer]:
+                    - /url: https://askomdch.com/contact-us/
+        - complementary "Footer Widget 2" [ref=e111]:
+          - generic [ref=e113]:
+            - heading "For Her" [level=2] [ref=e114]
+            - navigation "For Her" [ref=e115]:
+              - list [ref=e116]:
+                - listitem [ref=e117]:
+                  - link "Women" [ref=e118] [cursor=pointer]:
+                    - /url: https://askomdch.com/product-category/women/
+                - listitem [ref=e119]:
+                  - link "Women’s Jeans" [ref=e120] [cursor=pointer]:
+                    - /url: https://askomdch.com/product-category/womens-jeans/
+                - listitem [ref=e121]:
+                  - link "Women’s Shirts" [ref=e122] [cursor=pointer]:
+                    - /url: https://askomdch.com/product-category/womens-shirts/
+                - listitem [ref=e123]:
+                  - link "Women’s Shoes" [ref=e124] [cursor=pointer]:
+                    - /url: https://askomdch.com/product-category/womens-shoes/
+                - listitem [ref=e125]:
+                  - link "Accessories" [ref=e126] [cursor=pointer]:
+                    - /url: https://askomdch.com/product-category/accessories/
+        - complementary "Footer Widget 3" [ref=e128]:
+          - generic [ref=e130]:
+            - heading "For Him" [level=2] [ref=e131]
+            - navigation "For Him" [ref=e132]:
+              - list [ref=e133]:
+                - listitem [ref=e134]:
+                  - link "Men" [ref=e135] [cursor=pointer]:
+                    - /url: https://askomdch.com/product-category/men/
+                - listitem [ref=e136]:
+                  - link "Men’s Jeans" [ref=e137] [cursor=pointer]:
+                    - /url: https://askomdch.com/product-category/mens-jeans/
+                - listitem [ref=e138]:
+                  - link "Men’s Shirts" [ref=e139] [cursor=pointer]:
+                    - /url: https://askomdch.com/product-category/mens-shirts/
+                - listitem [ref=e140]:
+                  - link "Men’s Shoes" [ref=e141] [cursor=pointer]:
+                    - /url: https://askomdch.com/product-category/mens-shoes/
+                - listitem [ref=e142]:
+                  - link "Accessories" [ref=e143] [cursor=pointer]:
+                    - /url: https://askomdch.com/product-category/accessories/
+        - complementary "Footer Widget 4" [ref=e145]:
+          - generic [ref=e147]:
+            - heading "AOD on Mobile" [level=2] [ref=e148]
+            - paragraph [ref=e150]:
+              - link [ref=e151] [cursor=pointer]:
+                - /url: https://www.apple.com/in/app-store/
+              - link [ref=e152] [cursor=pointer]:
+                - /url: https://play.google.com/store
+      - generic [ref=e155]:
+        - paragraph [ref=e159]: Copyright © 2025 AskOmDch
+        - paragraph [ref=e164]: Powered by AskOmDch
+```
